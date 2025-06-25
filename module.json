@@ -1,0 +1,106 @@
+{
+  "id": "wod-compendium-ru",
+  "title": "Demon: The Fallen Compendium RU",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "worldofdarkness",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "game-icons-net",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "Wod Compendium",
+      "sorting": "m",
+      "color": "#7b001c",
+      "folders": [],
+      "packs": [
+        "guidebooks",
+        "actors",
+        "powers",
+        "equipment",
+        "character-creation"
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "guidebooks",
+      "label": "Справочники",
+      "path": "packs/guidebooks",
+      "type": "JournalEntry",
+      "system": "worldofdarkness",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actors",
+      "label": "Актёры",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "worldofdarkness",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "powers",
+      "label": "Силы",
+      "path": "packs/powers",
+      "type": "Item",
+      "system": "worldofdarkness",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipment",
+      "label": "Снаряжение",
+      "path": "packs/equipment",
+      "type": "Item",
+      "system": "worldofdarkness",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "character-creation",
+      "label": "Создание персонажа",
+      "path": "packs/character-creation",
+      "type": "Item",
+      "system": "worldofdarkness",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "authors": [
+    {
+      "name": "StormLord",
+      "url": "https://boosty.to/stormlord",
+      "discord": "stormlord34",
+      "flags": {}
+    }
+  ],
+  "description": "<p>Компендиум для линейки Demon: The Fallen Мира Тьмы.</p>"
+}
