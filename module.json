@@ -15,13 +15,6 @@
         "compatibility": {}
       }
     ],
-    "recommends": [
-      {
-        "id": "game-icons-net",
-        "type": "module",
-        "compatibility": {}
-      }
-    ]
   },
   "packFolders": [
     {
