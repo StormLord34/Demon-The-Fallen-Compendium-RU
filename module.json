@@ -1,6 +1,7 @@
 {
-  "id": "wod-compendium-ru",
+  "id": "dtf-compendium-ru",
   "title": "Demon: The Fallen Compendium RU",
+  "description": "<p>Компендиум для линейки Demon: The Fallen Мира Тьмы.</p>",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
@@ -24,7 +25,7 @@
   },
   "packFolders": [
     {
-      "name": "Wod Compendium",
+      "name": "DtF Compendium",
       "sorting": "m",
       "color": "#7b001c",
       "folders": [],
@@ -102,7 +103,7 @@
       "flags": {}
     }
   ],
-  "description": "<p>Компендиум для линейки Demon: The Fallen Мира Тьмы.</p>",
+  "url": "https://boosty.to/stormlord",
   "manifest": "https://github.com/StormLord34/Demon-The-Fallen-Compendium-RU/releases/download/stable/module.json",
   "download": "https://github.com/StormLord34/Demon-The-Fallen-Compendium-RU/releases/download/stable/module.zip"
 }
